@@ -7,8 +7,8 @@ dataframe = pd.read_csv(url)
 #print(dataframe)
 X = dataframe.values[: ,2]
 Y = dataframe.values[: ,4]
-#plt.scatter(X, Y, marker='o')
-#plt.show()
+plt.scatter(X, Y, marker='o')
+plt.show()
 
 def predict(new_radio, weight, bias):
     return weight*new_radio + bias
