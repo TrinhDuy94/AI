@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Hoi quy Logistic
 import pandas as pd
 import numpy as np
@@ -25,6 +26,9 @@ plt.scatter(true_x,true_y,marker="o",c="b")
 plt.scatter(false_x,false_y,marker="s",c="r")
 plt.show()
 #def sigmoid(z):
+=======
+# Hoi quy Logistic
+>>>>>>> origin/master
 =======
 # Hoi quy Logistic
 >>>>>>> origin/master
